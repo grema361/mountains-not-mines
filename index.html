@@ -12,6 +12,7 @@
 
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <a class="skip" href="#main">Skip to content</a>
 
@@ -33,16 +34,17 @@
     </div>
   </header>
 
-  <section class="hero">
-    <div class="hero-bg" aria-hidden="true"></div>
-    <div class="hero-vignette" aria-hidden="true"></div>
+  <!-- Standalone banner (FB cover style) -->
+  <section class="banner">
+    <img src="header.jpg" alt="Mountains Not Mines banner">
+  </section>
 
-    <div class="wrap hero-inner">
-      <div class="hero-copy">
+  <!-- Intro -->
+  <section class="intro">
+    <div class="wrap intro-inner">
+      <div>
         <div class="pill">Aotearoa New Zealand • Ki uta ki tai</div>
-
-        <h1>Protect mountains.<br />Reject destructive mining.</h1>
-
+        <h1>Protect mountains.<br>Reject destructive mining.</h1>
         <p class="lede">
           Mountains Not Mines exists to protect the mauri and integrity of Aotearoa New Zealand’s hills, uplands and mountains, their indigenous biodiversity, ecology and scenic values — and to promote ki uta ki tai stewardship from mountains to the sea.
         </p>
@@ -52,37 +54,16 @@
           <a class="btn" href="#resources">View resources</a>
           <a class="btn" href="https://www.facebook.com/share/g/1B1Eet7sMW/" target="_blank" rel="noopener">Join Facebook group</a>
         </div>
-
-        <div class="metrics" aria-label="Key focus areas">
-          <div class="metric">
-            <div class="metric-title">Protect</div>
-            <div class="metric-sub">Mountainscapes + biodiversity</div>
-          </div>
-          <div class="metric">
-            <div class="metric-title">Advocate</div>
-            <div class="metric-sub">Evidence-led policy + water</div>
-          </div>
-          <div class="metric">
-            <div class="metric-title">Connect</div>
-            <div class="metric-sub">Mountains → rivers → coast</div>
-          </div>
-        </div>
       </div>
 
-      <aside class="glass">
-        <div class="glass-top">
-          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
-          <span class="glass-label">Latest</span>
-        </div>
-        <div class="glass-body">
-          <h3>Start here</h3>
-          <ul>
-            <li>Join the Facebook group for updates</li>
-            <li>Share: <strong>#MountainsNotMines</strong></li>
-            <li>Add key docs in the Resources section</li>
-          </ul>
-          <a class="arrow" href="#resources">Go to resources →</a>
-        </div>
+      <aside class="callout">
+        <h3>Start here</h3>
+        <ul>
+          <li>Join the Facebook group for updates</li>
+          <li>Share: <strong>#MountainsNotMines</strong></li>
+          <li>Add key docs under Resources</li>
+        </ul>
+        <a class="arrow" href="#resources">Go to resources →</a>
       </aside>
     </div>
   </section>
@@ -116,7 +97,7 @@
     <section id="action" class="section">
       <div class="section-head">
         <h2>Take action</h2>
-        <p>Make it easy for people to help. Replace placeholders with your real links as you build.</p>
+        <p>Replace placeholders with your real links as you build.</p>
       </div>
 
       <div class="grid">
@@ -149,7 +130,7 @@
     <section id="resources" class="section">
       <div class="section-head">
         <h2>Resources</h2>
-        <p>Upload PDFs to this repo (same folder as index.html) and link them here.</p>
+        <p>Upload PDFs to this repo (same folder as <code>index.html</code>) and link them here.</p>
       </div>
 
       <div class="panel">

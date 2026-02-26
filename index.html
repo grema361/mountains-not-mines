@@ -4,103 +4,256 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mountains Not Mines</title>
-  <meta name="description" content="Protecting the mauri and integrity of Aotearoa New Zealand’s mountainscapes. Opposing destructive mining and promoting ki uta ki tai stewardship." />
+  <meta name="description" content="Mountains Not Mines protects the mauri and integrity of Aotearoa New Zealand’s mountainscapes, opposing destructive mining and promoting ki uta ki tai stewardship." />
+
+  <meta property="og:title" content="Mountains Not Mines" />
+  <meta property="og:description" content="Protect mountains. Reject destructive mining. Ki uta ki tai stewardship." />
+  <meta property="og:type" content="website" />
+  <!-- Optional once you have a share image:
+  <meta property="og:image" content="https://yourusername.github.io/mountains-not-mines/assets/hero.jpg" />
+  -->
+
+  <link rel="icon" href="assets/logo.png" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <nav>
-    <div class="wrap">
-      <a href="#"><strong>Mountains Not Mines</strong></a>
-      <div class="links">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#">
+        <img class="brand-logo" src="assets/logo.png" alt="Mountains Not Mines logo" onerror="this.style.display='none'">
+        <span class="brand-name">Mountains Not Mines</span>
+      </a>
+
+      <nav class="nav">
         <a href="#about">About</a>
         <a href="#action">Take action</a>
         <a href="#resources">Resources</a>
         <a href="#contact">Contact</a>
-      </div>
-    </div>
-  </nav>
+      </nav>
 
-  <header>
-    <div class="wrap">
-      <span class="badge">Aotearoa New Zealand</span>
-      <h1>Protect mountains.<br/>Reject destructive mining.</h1>
-      <p class="lede">
-        Mountains Not Mines exists to protect the mauri and integrity of Aotearoa New Zealand’s hills, uplands and mountains, their indigenous biodiversity, ecology and scenic values — and to promote ki uta ki tai stewardship from mountains to the sea.
-      </p>
-      <div class="cta-row">
-        <a class="button primary" href="#action">Take action</a>
-        <a class="button" href="#resources">View resources</a>
-      </div>
+      <a class="btn btn-small" href="#action">Get involved</a>
     </div>
   </header>
 
-  <main class="wrap">
-    <section id="about">
-      <h2>What we do</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>Protect</h3>
-          <p>Defend high-value mountainscapes, waterways and habitats from industrial mining and inappropriate development.</p>
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <div class="pill">Aotearoa New Zealand • Mountains to the sea</div>
+        <h1>Protect mountains.<br/>Reject destructive mining.</h1>
+        <p class="lede">
+          We protect the mauri and integrity of Aotearoa’s hills, uplands and mountains — and the rivers, wetlands and coasts they feed — by opposing destructive mining and promoting ki uta ki tai stewardship.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#action">Take action</a>
+          <a class="btn btn-ghost" href="#resources">Explore resources</a>
+          <a class="btn btn-ghost" href="https://www.facebook.com/share/g/1B1Eet7sMW/" target="_blank" rel="noopener">Join Facebook group</a>
         </div>
-        <div class="card">
-          <h3>Advocate</h3>
-          <p>Champion evidence-led policy and strong protections for biodiversity, water quality and landscape integrity.</p>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-num">Ki uta ki tai</div>
+            <div class="stat-label">Mountains to the sea approach</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">Evidence-led</div>
+            <div class="stat-label">Policy, ecology, water quality</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">Community-powered</div>
+            <div class="stat-label">People protecting places</div>
+          </div>
         </div>
-        <div class="card">
-          <h3>Connect</h3>
-          <p>Promote a ki uta ki tai approach recognising backcountry actions affect rivers, wetlands and coasts.</p>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-top">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          <span class="hero-card-title">Latest</span>
         </div>
+        <div class="hero-card-body">
+          <h3>What’s happening</h3>
+          <ul class="checklist">
+            <li>Share key resources and updates</li>
+            <li>Make submissions when they open</li>
+            <li>Support local place-based campaigns</li>
+          </ul>
+          <a class="link" href="#resources">See resources →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap logo-row" aria-label="Partners and supporters">
+      <div class="logo-chip">Supporters</div>
+      <div class="logos">
+        <!-- Replace these with real logos later -->
+        <span class="logo-skel">Logo</span>
+        <span class="logo-skel">Logo</span>
+        <span class="logo-skel">Logo</span>
+        <span class="logo-skel">Logo</span>
+      </div>
+    </div>
+  </section>
+
+  <main id="main" class="wrap">
+    <section id="about" class="section">
+      <div class="section-head">
+        <h2>What we do</h2>
+        <p>We focus on mountainscapes as living systems — biodiversity, water, culture, and wellbeing — and the downstream impacts of decisions made in backcountry catchments.</p>
+      </div>
+
+      <div class="grid3">
+        <article class="card">
+          <div class="card-media" style="background-image:url('assets/card1.jpg');" data-fallback="linear-gradient(120deg, rgba(255,255,255,.08), rgba(255,255,255,0))"></div>
+          <div class="card-body">
+            <h3>Protect</h3>
+            <p>Defend high-value landscapes and habitats from industrial mining and inappropriate development.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media" style="background-image:url('assets/card2.jpg');" data-fallback="linear-gradient(120deg, rgba(255,255,255,.08), rgba(255,255,255,0))"></div>
+          <div class="card-body">
+            <h3>Advocate</h3>
+            <p>Champion evidence-led policy that safeguards water quality, biodiversity, and landscape integrity.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media" style="background-image:url('assets/card3.jpg');" data-fallback="linear-gradient(120deg, rgba(255,255,255,.08), rgba(255,255,255,0))"></div>
+          <div class="card-body">
+            <h3>Connect</h3>
+            <p>Promote ki uta ki tai: actions in headwaters can shape ecosystems and water quality at the coast.</p>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section id="action">
-      <h2>Take action</h2>
-      <div class="grid">
-        <div class="card">
+    <section id="action" class="section">
+      <div class="section-head">
+        <h2>Take action</h2>
+        <p>Make it easy for people to help in 60 seconds. Replace the placeholder links with your real ones.</p>
+      </div>
+
+      <div class="grid2">
+        <div class="panel">
           <h3>Email your MP</h3>
-          <p>Add a short template and a link to your preferred action platform.</p>
-          <p><a href="#">Add link</a></p>
+          <p>Link to a short template (Google Doc) or an action page.</p>
+          <a class="btn btn-primary" href="#" aria-disabled="true">Add MP email template</a>
         </div>
-        <div class="card">
+        <div class="panel">
           <h3>Get updates</h3>
-          <p>Link to your newsletter signup (Mailchimp/Substack/etc).</p>
-          <p><a href="#">Add link</a></p>
+          <p>Link to your newsletter signup (Mailchimp / Substack / etc.).</p>
+          <a class="btn btn-ghost" href="#" aria-disabled="true">Add newsletter link</a>
         </div>
-        <div class="card">
+        <div class="panel">
+          <h3>Join the community</h3>
+          <p>Coordinate, share updates, and amplify action.</p>
+          <a class="btn btn-ghost" href="https://www.facebook.com/share/g/1B1Eet7sMW/" target="_blank" rel="noopener">Join Facebook group</a>
+        </div>
+        <div class="panel">
           <h3>Share</h3>
-          <p>Post using <strong>#MountainsNotMines</strong> and share key resources.</p>
+          <p>Use <strong>#MountainsNotMines</strong> and share key resources below.</p>
+          <a class="btn btn-ghost" href="#resources">Go to resources</a>
         </div>
       </div>
     </section>
 
-    <section id="resources">
-      <h2>Resources</h2>
-      <div class="card">
-        <ul>
-          <li><a href="#">Briefing note (PDF)</a></li>
-          <li><a href="#">Maps / photos</a></li>
-          <li><a href="#">Media kit</a></li>
+    <section id="resources" class="section">
+      <div class="section-head">
+        <h2>Resources</h2>
+        <p>Upload PDFs and images into the repo (e.g., <code>assets/briefing.pdf</code>) and link them here.</p>
+      </div>
+
+      <div class="panel">
+        <ul class="resource-list">
+          <li>
+            <span class="tag">PDF</span>
+            <a href="#" aria-disabled="true">Briefing note</a>
+            <span class="muted">Add a link to a PDF in your repo</span>
+          </li>
+          <li>
+            <span class="tag">MAP</span>
+            <a href="#" aria-disabled="true">Map / photos</a>
+            <span class="muted">Add image gallery or folder</span>
+          </li>
+          <li>
+            <span class="tag">MEDIA</span>
+            <a href="#" aria-disabled="true">Media kit</a>
+            <span class="muted">Logos, key messages, contacts</span>
+          </li>
         </ul>
-        <p style="opacity:.7;margin:10px 0 0;">Tip: upload PDFs/images to the repo and link them here.</p>
       </div>
     </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <div class="card">
-        <p>Add an email address or a simple contact form service link.</p>
-        <ul>
-          <li>Email: <a href="mailto:hello@example.org">hello@example.org</a></li>
-          <li>Instagram: <a href="#">@mountainsnotmines</a></li>
-        </ul>
+    <section id="contact" class="section">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>Add a real email address when you’re ready (or keep it as a form link).</p>
+      </div>
+
+      <div class="grid2">
+        <div class="panel">
+          <h3>Message us</h3>
+          <p>Replace the email below with your official address.</p>
+          <p class="contact-row">
+            <span class="icon" aria-hidden="true">✉</span>
+            <a href="mailto:hello@example.org">hello@example.org</a>
+          </p>
+          <p class="contact-row">
+            <span class="icon" aria-hidden="true">👥</span>
+            <a href="https://www.facebook.com/share/g/1B1Eet7sMW/" target="_blank" rel="noopener">Facebook group</a>
+          </p>
+        </div>
+
+        <div class="panel">
+          <h3>Quick note</h3>
+          <p class="muted">This site is intentionally lightweight: fast to load, easy to edit, and built for sharing.</p>
+          <div class="mini">
+            <div class="mini-item"><strong>Tip:</strong> Put images in <code>assets/</code></div>
+            <div class="mini-item"><strong>Tip:</strong> Keep filenames lowercase, no spaces</div>
+            <div class="mini-item"><strong>Tip:</strong> JPG for photos, PNG for logos</div>
+          </div>
+        </div>
       </div>
     </section>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div>
+          <strong>Mountains Not Mines</strong><br/>
+          <span class="muted">© <span id="year"></span></span>
+        </div>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#action">Action</a>
+          <a href="#resources">Resources</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
   </main>
 
-  <footer>
-    <div class="wrap">© Mountains Not Mines</div>
-  </footer>
-
+  <script>
+    // Small quality-of-life touch: set year + card image fallbacks
+    document.getElementById("year").textContent = new Date().getFullYear();
+    document.querySelectorAll(".card-media").forEach(el => {
+      const bg = el.style.backgroundImage || "";
+      if (!bg.includes("url(")) return;
+      const imgUrl = bg.slice(5, -2);
+      const img = new Image();
+      img.onload = () => {};
+      img.onerror = () => {
+        el.style.backgroundImage = el.getAttribute("data-fallback");
+      };
+      img.src = imgUrl;
+    });
+  </script>
 </body>
 </html>

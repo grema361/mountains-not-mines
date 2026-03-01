@@ -7,11 +7,44 @@
   <meta name="description" content="Protect mountains. Reject destructive mining. Ki uta ki tai stewardship from mountains to the sea." />
 
   <meta property="og:title" content="Mountains Not Mines" />
-  <meta property="og:description" content="Protect mountains. Reject destructive mining. Ki uta ki tai stewardship." />
+  <meta property="og:description" content="Protect mountains. Reject destructive mining." />
   <meta property="og:type" content="website" />
 
-  <!-- Cache-bust so desktop updates reliably -->
-  <link rel="stylesheet" href="style.css?v=4" />
+  <link rel="stylesheet" href="style.css?v=5" />
+
+  <style>
+    /* Emphasise Take Action */
+    #action h2 {
+      font-weight: 900;
+      font-size: 34px;
+      letter-spacing: -0.5px;
+    }
+
+    /* Red donation buttons */
+    .btn-donate {
+      background: #c40000;
+      border: 1px solid #c40000;
+      color: #ffffff;
+    }
+
+    .btn-donate:hover {
+      background: #ff1a1a;
+      border-color: #ff1a1a;
+    }
+
+    /* News styling */
+    .news-item {
+      margin-bottom: 18px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .news-date {
+      font-size: 14px;
+      opacity: 0.6;
+      margin-bottom: 6px;
+    }
+  </style>
 </head>
 
 <body>
@@ -24,133 +57,98 @@
         <span class="brand-text">Mountains Not Mines</span>
       </a>
 
-      <nav class="nav" aria-label="Primary navigation">
+      <nav class="nav">
         <a href="#about">About</a>
         <a href="#action">Take action</a>
-        <a href="#resources">Resources</a>
+        <a href="#news">News</a>
         <a href="#contact">Contact</a>
       </nav>
 
-      <a class="btn btn-small" href="https://www.facebook.com/share/g/1B1Eet7sMW/" target="_blank" rel="noopener">Join Facebook</a>
+      <a class="btn btn-small" href="https://www.facebook.com/share/g/1B1Eet7sMW/" target="_blank">Join Facebook</a>
     </div>
   </header>
 
-  <!-- Standalone header image (not background) -->
-  <section class="banner" aria-label="Header image">
+  <section class="banner">
     <img src="header.jpg" alt="Mountains Not Mines header image">
   </section>
 
   <main id="main" class="wrap">
+
     <section class="intro">
       <div class="pill">Aotearoa New Zealand • Ki uta ki tai</div>
-
       <h1>Protect mountains.<br>Reject destructive mining.</h1>
-
       <p class="lede">
-        Mountains Not Mines exists to protect the mauri and integrity of Aotearoa New Zealand’s hills, uplands and mountains, their indigenous biodiversity, ecology and scenic values — and to promote ki uta ki tai stewardship from mountains to the sea.
+        Mountains Not Mines exists to protect the mauri and integrity of Aotearoa New Zealand’s hills, uplands and mountains and promote ki uta ki tai stewardship from mountains to the sea.
       </p>
-
-      <div class="cta">
-        <a class="btn btn-primary" href="#action">Take action</a>
-        <a class="btn" href="#resources">View resources</a>
-        <a class="btn" href="https://www.facebook.com/share/g/1B1Eet7sMW/" target="_blank" rel="noopener">Join Facebook group</a>
-      </div>
-
-      <div class="highlights" aria-label="Key focus areas">
-        <div class="highlight">
-          <div class="highlight-title">Protect</div>
-          <div class="highlight-sub">Mountainscapes + biodiversity</div>
-        </div>
-        <div class="highlight">
-          <div class="highlight-title">Advocate</div>
-          <div class="highlight-sub">Evidence-led policy + water</div>
-        </div>
-        <div class="highlight">
-          <div class="highlight-title">Connect</div>
-          <div class="highlight-sub">Mountains → rivers → coast</div>
-        </div>
-      </div>
     </section>
 
-    <section id="about" class="section">
-      <div class="section-head">
-        <h2>What we do</h2>
-        <p>
-          We defend mountain ecosystems and the places downstream that depend on them.
-          We oppose destructive mining and inappropriate development, and promote sustainable land and water stewardship.
-        </p>
-      </div>
-
-      <div class="cards">
-        <article class="card">
-          <h3>Protect</h3>
-          <p>Defend high-value mountainscapes, waterways and habitats from industrial mining and inappropriate development.</p>
-        </article>
-
-        <article class="card">
-          <h3>Advocate</h3>
-          <p>Champion strong protections for biodiversity, water quality and landscape integrity — grounded in evidence.</p>
-        </article>
-
-        <article class="card">
-          <h3>Connect</h3>
-          <p>Promote ki uta ki tai: what happens in headwaters can shape ecosystems and water quality at the coast.</p>
-        </article>
-      </div>
-    </section>
-
+    <!-- TAKE ACTION -->
     <section id="action" class="section">
       <div class="section-head">
-        <h2>Take action</h2>
-        <p>Replace placeholders with your real links as you build.</p>
+        <h2>TAKE ACTION</h2>
+        <p>Support frontline campaigns and community resistance.</p>
       </div>
 
       <div class="grid">
+
         <div class="panel">
-          <h3>Join the Facebook group</h3>
-          <p>Updates, coordination, and quick actions.</p>
-          <a class="btn btn-primary" href="https://www.facebook.com/share/g/1B1Eet7sMW/" target="_blank" rel="noopener">Join Facebook</a>
+          <h3>Sustainable Tarras</h3>
+          <p>Join the petition opposing destructive development.</p>
+          <a class="btn btn-primary"
+             href="https://sustainabletarras.us3.list-manage.com/subscribe?u=af3afd2ec3b04d4cf0cad8da9&id=619a94f53d"
+             target="_blank">Sign the petition</a>
         </div>
 
         <div class="panel">
-          <h3>Email your MP</h3>
-          <p>Add a template link (Google Doc) or a campaign action page.</p>
-          <a class="btn" href="#" aria-disabled="true">Add MP email template</a>
+          <h3>Climate Liberation Aotearoa</h3>
+          <p>Support their campaign against fast track coal mining.</p>
+          <a class="btn"
+             href="#"
+             target="_blank">Support the campaign</a>
         </div>
 
         <div class="panel">
-          <h3>Get updates</h3>
-          <p>Link your newsletter signup (Mailchimp/Substack/etc).</p>
-          <a class="btn" href="#" aria-disabled="true">Add newsletter link</a>
+          <h3>Denniston 11 Legal Defence</h3>
+          <p>Support those resisting coal expansion.</p>
+          <a class="btn btn-donate"
+             href="https://chuffed.org/project/129679-support-the-denniston-10"
+             target="_blank">Donate</a>
         </div>
 
         <div class="panel">
-          <h3>Share</h3>
-          <p>Post using <strong>#MountainsNotMines</strong> and share the resources below.</p>
-          <a class="btn" href="#resources">Go to resources</a>
+          <h3>Rach and Tamati Defence Fund</h3>
+          <p>Help fund their court case defence.</p>
+          <a class="btn btn-donate"
+             href="https://chuffed.org/project/rach-and-tamati"
+             target="_blank">Donate</a>
         </div>
+
       </div>
     </section>
 
-    <section id="resources" class="section">
+    <!-- NEWS -->
+    <section id="news" class="section">
       <div class="section-head">
-        <h2>Resources</h2>
-        <p>Upload PDFs to this repo (same folder as <code>index.html</code>) and link them here.</p>
+        <h2>News</h2>
+        <p>Latest developments in climate and mining policy.</p>
       </div>
 
-      <div class="panel">
-        <ul class="list">
-          <li><span class="tag">PDF</span> <a href="#" aria-disabled="true">Briefing note</a> <span class="muted">Add link</span></li>
-          <li><span class="tag">MAP</span> <a href="#" aria-disabled="true">Maps / photos</a> <span class="muted">Add link</span></li>
-          <li><span class="tag">MEDIA</span> <a href="#" aria-disabled="true">Media kit</a> <span class="muted">Add link</span></li>
-        </ul>
+      <div class="news-item">
+        <div class="news-date">March 2026</div>
+        <strong>Government weakens climate policy direction</strong>
+        <p>Recent policy changes risk increasing emissions at a critical decade for climate action.</p>
+      </div>
+
+      <div class="news-item">
+        <div class="news-date">February 2026</div>
+        <strong>Fast track coal mining expansion challenged</strong>
+        <p>Community resistance continues against proposals that threaten high value ecosystems.</p>
       </div>
     </section>
 
     <section id="contact" class="section">
       <div class="section-head">
         <h2>Contact</h2>
-        <p>Add your real email when ready.</p>
       </div>
 
       <div class="grid">
@@ -160,25 +158,21 @@
         </div>
 
         <div class="panel">
-          <h3>Community</h3>
-          <p><a href="https://www.facebook.com/share/g/1B1Eet7sMW/" target="_blank" rel="noopener">Join the Facebook group</a></p>
+          <h3>Facebook</h3>
+          <p><a href="https://www.facebook.com/share/g/1B1Eet7sMW/" target="_blank">Join the group</a></p>
         </div>
       </div>
     </section>
 
     <footer class="footer">
       <div>© <span id="year"></span> Mountains Not Mines</div>
-      <div class="footer-links">
-        <a href="#about">About</a>
-        <a href="#action">Action</a>
-        <a href="#resources">Resources</a>
-        <a href="#contact">Contact</a>
-      </div>
     </footer>
+
   </main>
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
+
 </body>
 </html>

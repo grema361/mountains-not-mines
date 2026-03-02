@@ -1,50 +1,237 @@
-<section id="news" class="section">
-  <div class="section-head">
-    <h2>News</h2>
-    <p>Latest developments in climate and mining policy.</p>
-  </div>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mountains Not Mines</title>
+  <meta name="description" content="Protect mountains. Reject destructive mining. Ki uta ki tai stewardship from mountains to the sea." />
 
-  <!-- Featured Climate Comic -->
-  <div class="news-item">
-    <div class="news-date">Latest</div>
-    <strong>Climate sinks are failing</strong>
-    <p>
-      A visual explainer on the weakening of global carbon sinks and what it means for accelerating warming and shrinking carbon budgets.
-    </p>
-    <a href="IMG_0218.jpeg" target="_blank" rel="noopener">
-      <img class="news-feature-img" src="IMG_0218.jpeg" alt="Climate sinks failing comic">
-    </a>
-  </div>
+  <meta property="og:title" content="Mountains Not Mines" />
+  <meta property="og:description" content="Protect mountains. Reject destructive mining." />
+  <meta property="og:type" content="website" />
 
-  <!-- Mining Info Comic PDF -->
-  <div class="news-item">
-    <div class="news-date">New</div>
-    <strong>Mining Info Comic</strong>
-    <p>
-      A visual breakdown of the impacts and risks associated with fast track mining proposals in Aotearoa.
-    </p>
+  <link rel="stylesheet" href="style.css?v=7" />
 
-    <!-- If renamed cleanly -->
-    <a class="btn btn-primary"
-       href="mining-info-comic-002.pdf"
-       target="_blank" rel="noopener">
-       View Mining Info Comic (PDF)
-    </a>
+  <style>
+    /* Emphasise Take Action */
+    #action h2 {
+      font-weight: 900;
+      font-size: 34px;
+      letter-spacing: -0.5px;
+    }
 
-    <!-- If you kept original filename with spaces -->
-    <!--
-    <a class="btn btn-primary"
-       href="MINING%20INFO%20COMIC-002%20(1).pdf"
-       target="_blank" rel="noopener">
-       View Mining Info Comic (PDF)
-    </a>
-    -->
-  </div>
+    /* Red donation buttons */
+    .btn-donate {
+      background: #c40000;
+      border: 1px solid #c40000;
+      color: #ffffff;
+    }
+    .btn-donate:hover {
+      background: #ff1a1a;
+      border-color: #ff1a1a;
+    }
 
-  <div class="news-item">
-    <div class="news-date">March 2026</div>
-    <strong>Government weakens climate policy direction</strong>
-    <p>Recent policy changes risk increasing emissions at a critical decade for climate action.</p>
-  </div>
+    /* News styling */
+    .news-item {
+      margin-bottom: 18px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .news-date {
+      font-size: 14px;
+      opacity: 0.6;
+      margin-bottom: 6px;
+    }
+    .news-feature-img {
+      width: 100%;
+      max-width: 820px;
+      display: block;
+      border-radius: 14px;
+      margin-top: 12px;
+      border: 1px solid rgba(255,255,255,0.14);
+    }
+  </style>
+</head>
 
-</section>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#">
+        <span class="mark" aria-hidden="true">M</span>
+        <span class="brand-text">Mountains Not Mines</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#action">Take action</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="btn btn-small"
+         href="https://www.facebook.com/share/g/1B1Eet7sMW/"
+         target="_blank" rel="noopener">
+         Join Facebook
+      </a>
+    </div>
+  </header>
+
+  <!-- Standalone header image -->
+  <section class="banner" aria-label="Header image">
+    <img src="header.jpg" alt="Mountains Not Mines header image">
+  </section>
+
+  <main id="main" class="wrap">
+
+    <!-- Intro -->
+    <section class="intro">
+      <div class="pill">Aotearoa New Zealand • Ki uta ki tai</div>
+      <h1>Protect mountains.<br>Reject destructive mining.</h1>
+      <p class="lede">
+        Mountains Not Mines exists to protect the mauri and integrity of Aotearoa New Zealand’s hills, uplands and mountains and promote ki uta ki tai stewardship from mountains to the sea.
+      </p>
+    </section>
+
+    <!-- TAKE ACTION -->
+    <section id="action" class="section">
+      <div class="section-head">
+        <h2>TAKE ACTION</h2>
+        <p>Support frontline campaigns and community resistance.</p>
+      </div>
+
+      <div class="grid">
+
+        <div class="panel">
+          <h3>Sustainable Tarras</h3>
+          <p>Join the petition opposing destructive development.</p>
+          <a class="btn btn-primary"
+             href="https://sustainabletarras.us3.list-manage.com/subscribe?u=af3afd2ec3b04d4cf0cad8da9&id=619a94f53d"
+             target="_blank" rel="noopener">
+             Sign the petition
+          </a>
+        </div>
+
+        <div class="panel">
+          <h3>Climate Liberation Aotearoa</h3>
+          <p>Support their campaign against fast track coal mining.</p>
+          <a class="btn"
+             href="https://climateliberationaotearoa.org/"
+             target="_blank" rel="noopener">
+             Visit Climate Liberation Aotearoa
+          </a>
+        </div>
+
+        <div class="panel">
+          <h3>Denniston 11 Legal Defence</h3>
+          <p>Support those resisting coal expansion.</p>
+          <a class="btn btn-donate"
+             href="https://chuffed.org/project/129679-support-the-denniston-10"
+             target="_blank" rel="noopener">
+             Donate
+          </a>
+        </div>
+
+        <div class="panel">
+          <h3>Rach and Tamati Defence Fund</h3>
+          <p>Help fund their court case defence.</p>
+          <a class="btn btn-donate"
+             href="https://chuffed.org/project/rach-and-tamati?utm_source=iframe"
+             target="_blank" rel="noopener">
+             Donate
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- NEWS -->
+    <section id="news" class="section">
+      <div class="section-head">
+        <h2>News</h2>
+        <p>Comics, updates, and key developments.</p>
+      </div>
+
+      <!-- Featured comic image -->
+      <div class="news-item">
+        <div class="news-date">Latest</div>
+        <strong>Climate sinks are failing</strong>
+        <p>
+          A visual explainer on the weakening of global carbon sinks and what it means for accelerating warming and shrinking carbon budgets.
+        </p>
+        <a href="IMG_0218.jpeg" target="_blank" rel="noopener">
+          <img class="news-feature-img" src="IMG_0218.jpeg" alt="Climate sinks failing comic">
+        </a>
+      </div>
+
+      <!-- Mining comic PDF -->
+      <div class="news-item">
+        <div class="news-date">Latest</div>
+        <strong>Mining info comic</strong>
+        <p>
+          A visual breakdown of mining impacts and the risks of fast track approvals.
+        </p>
+        <a class="btn btn-primary"
+           href="MINING%20INFO%20COMIC-002%20(1).pdf"
+           target="_blank" rel="noopener">
+           View the mining info comic (PDF)
+        </a>
+      </div>
+
+      <!-- Extra placeholders you can edit later -->
+      <div class="news-item">
+        <div class="news-date">March 2026</div>
+        <strong>Government weakens climate policy direction</strong>
+        <p>Recent policy changes risk increasing emissions at a critical decade for climate action.</p>
+      </div>
+
+      <div class="news-item">
+        <div class="news-date">February 2026</div>
+        <strong>Fast track coal mining expansion challenged</strong>
+        <p>Community resistance continues against proposals that threaten high value ecosystems.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>For now, use the email below. We can change it anytime.</p>
+      </div>
+
+      <div class="grid">
+        <div class="panel">
+          <h3>Email</h3>
+          <p>
+            <a href="mailto:mahalskibruce6@gmail.com">mahalskibruce6@gmail.com</a>
+          </p>
+        </div>
+
+        <div class="panel">
+          <h3>Facebook</h3>
+          <p>
+            <a href="https://www.facebook.com/share/g/1B1Eet7sMW/"
+               target="_blank" rel="noopener">
+              Join the group
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="year"></span> Mountains Not Mines</div>
+      <div class="footer-links">
+        <a href="#action">Action</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </footer>
+
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

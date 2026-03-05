@@ -195,3 +195,30 @@ h1{
 .footer-links{display:flex;gap:12px;flex-wrap:wrap}
 .footer-links a{text-decoration:none;opacity:.82}
 .footer-links a:hover{opacity:1}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.social-icons a {
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.08);
+  transition: background 0.2s ease;
+}
+
+.social-icons a:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.social-icons svg {
+  width: 18px;
+  height: 18px;
+  fill: white;
+}

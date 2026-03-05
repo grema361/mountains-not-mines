@@ -185,6 +185,36 @@ h1{
 }
 .muted{color:var(--muted)}
 
+/* Social icons (header + anywhere) */
+.social-icons{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+.social-icons a{
+  display:inline-flex;
+  width:34px;
+  height:34px;
+  align-items:center;
+  justify-content:center;
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,.14);
+  background: rgba(255,255,255,.04);
+  transition: transform .18s ease, background .18s ease, border-color .18s ease;
+}
+.social-icons a:hover{
+  transform:translateY(-1px);
+  background: rgba(255,255,255,.08);
+  border-color: rgba(255,255,255,.22);
+}
+.social-icons a:active{transform:translateY(0px)}
+.social-icons svg{
+  width:18px;
+  height:18px;
+  fill: rgba(255,255,255,.92);
+  opacity:.95;
+}
+
 /* Footer */
 .footer{
   padding:28px 0 50px;
@@ -195,30 +225,3 @@ h1{
 .footer-links{display:flex;gap:12px;flex-wrap:wrap}
 .footer-links a{text-decoration:none;opacity:.82}
 .footer-links a:hover{opacity:1}
-
-.social-icons {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-
-.social-icons a {
-  display: inline-flex;
-  width: 32px;
-  height: 32px;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-  background: rgba(255,255,255,0.08);
-  transition: background 0.2s ease;
-}
-
-.social-icons a:hover {
-  background: rgba(255,255,255,0.2);
-}
-
-.social-icons svg {
-  width: 18px;
-  height: 18px;
-  fill: white;
-}

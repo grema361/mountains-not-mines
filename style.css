@@ -236,12 +236,20 @@ a:hover {
   color: #ff1a1a;
 }
 
-#news .news-item a,
-#news .news-item a:visited {
-  color: #c40000 !important;
+/* Only text links (not nav/header/buttons) */
+.news-item a,
+.section p a {
+  color: #c40000;
 }
 
-#news .news-item a:hover,
-#news .news-item a:focus {
-  color: #ff1a1a !important;
+.news-item a:hover,
+.section p a:hover {
+  color: #ff1a1a;
+}
+
+/* Keep nav + header normal */
+.nav a,
+.topbar a,
+.footer a {
+  color: inherit !important;
 }

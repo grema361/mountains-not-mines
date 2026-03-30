@@ -235,3 +235,13 @@ a {
 a:hover {
   color: #ff1a1a;
 }
+
+#news .news-item a,
+#news .news-item a:visited {
+  color: #c40000 !important;
+}
+
+#news .news-item a:hover,
+#news .news-item a:focus {
+  color: #ff1a1a !important;
+}

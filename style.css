@@ -225,3 +225,13 @@ h1{
 .footer-links{display:flex;gap:12px;flex-wrap:wrap}
 .footer-links a{text-decoration:none;opacity:.82}
 .footer-links a:hover{opacity:1}
+
+a {
+  color: #c40000;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #ff1a1a;
+}
